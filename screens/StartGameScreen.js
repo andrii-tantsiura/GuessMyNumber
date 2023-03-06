@@ -1,10 +1,10 @@
-import { TextInput, View, StyleSheet, Text, Alert } from "react-native";
+import { TextInput, View, StyleSheet, Alert } from "react-native";
 import { useState } from "react";
 
-import PrimaryButton from "../components/ui/PrimaryButton";
 import Colors from "../constants/colors";
-import Title from "../components/ui/Title";
 import Card from "../components/ui/Card";
+import PrimaryButton from "../components/ui/PrimaryButton";
+import Title from "../components/ui/Title";
 import InstructionText from "../components/ui/InstructionText";
 
 function StartScreen({ onPickNumber }) {
