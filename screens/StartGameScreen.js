@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
   rootContainer: {
     flex: 1,
     alignItems: "center",
+    rowGap: 10,
   },
   buttonsContainer: {
     flexDirection: "row",
